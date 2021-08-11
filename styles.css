@@ -87,6 +87,17 @@ header {
   background-position: center center;
   background-color: var(--VeryPaleCyan);
   padding: 40px;
+  height: 100vh;
+}
+
+header .wrapper__flex-content {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper__flex-content > div {
+  flex: 1;
 }
 
 nav {
